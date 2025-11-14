@@ -1,20 +1,79 @@
-<html>
-    <head>
-        <title> smayyan </title>
-        <link rel="stylesheet" href="index.css">
-    </head>
-    <body>
-        <div id="main-div">
-            <div>
-                <h1 id="name"> smayyan </h1>
-                <hr />
-            </div>
-            <div>
-                <p>
-                    helobbjnbjdfbbijicn jnj jcbjbvjngbnjgn
-                    bubuvbucbvjbcjvbbvjcvjdjvnjvn
-                </p>
-            </div>
-        </div>
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Smayyan Reddy's Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link to the project stylesheet -->
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="site-container">
+        <header>
+            <h1>Smayyan Reddy</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section id="home">
+                <h2>Welcome</h2>
+                <p>Welcome to my website.</p>
+            </section>
+
+            <section id="about">
+                <h2>About Me</h2>
+                <p>Hi, my name is Smayyan Reddy and I am a B.Des student in FLAME University</p>
+                <img src="me website.jpg" alt="A picture of me" class="profile-photo">
+
+            <section id="work">
+                <div class="work">
+                    <h3>Check out my work</h3>
+                    <a href="https://github.com/Smayyan/website/blob/main/assignment%201(poster).js" target="_blank" rel="ass1" title="Assignment 1">
+                        <img src="Recording 2025-11-12 174143.gif" alt="Github" class="github-link">
+                    </a>
+                </div>
+            </section>
+
+            <section id="gallery">
+                <h2>Image Gallery</h2>
+                <div class="gallery">
+                    <img src="c:\Users\smayy.DESKTOP-A290FGC\Documents\website\_MG_0514.JPG" alt="Image 1">
+                    <img src="c:\Users\smayy.DESKTOP-A290FGC\Documents\website\_MG_0541.JPG" alt="Image 2">
+                    <img src="c:\Users\smayy.DESKTOP-A290FGC\Documents\website\_MG_0549.JPG" alt="Image 3">
+                    <img src="_MG_0146.JPG" alt="Image 4">
+                </div>
+            </section>
+
+            <section id="contact">
+                <h2>Contact Me</h2>
+                <form>
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Message" rows="5" required></textarea>
+                    <button type="submit">Send</button>
+                </form>
+
+                <div class="social-links" aria-label="Social media links">
+                    <p>Follow me:</p>
+                    <a href="https://twitter.com/yourhandle" target="_blank" rel="noopener noreferrer">Twitter</a>
+                    <a href="https://www.instagram.com/yourhandle" target="_blank" rel="noopener noreferrer">Instagram</a>
+                    <a href="https://www.linkedin.com/in/yourhandle" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                    <a href="https://github.com/yourhandle" target="_blank" rel="noopener noreferrer">GitHub</a>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>End of page, GO HOME.</p>
+        </footer>
+    </div>
+</body>
 </html>
